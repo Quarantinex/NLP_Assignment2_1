@@ -14,9 +14,9 @@ from torch.utils.data import DataLoader
 # !pip install pytorch_transformers
 from pytorch_transformers import AdamW  # Adam's optimization w/ fixed weight decay
 
-from models.finetuned_models import FineTunedBert
-from utils.data_utils import IMDBDataset
-from utils.model_utils import train, test
+from finetuned_models import FineTunedBert
+from data_utils import IMDBDataset
+from model_utils import train, test
 
 # Disable unwanted warning messages from pytorch_transformers
 # NOTE: Run once without the line below to check if anything is wrong, here we target to eliminate
