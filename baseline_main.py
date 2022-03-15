@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 # !pip install pytorch_transformers
 from pytorch_transformers import AdamW  # Adam's optimization w/ fixed weight decay
 
-from models.baseline_models import SimpleRNN, SimpleRNNWithBERTEmbeddings
+from baseline_models import SimpleRNN, SimpleRNNWithBERTEmbeddings
 from utils.data_utils import IMDBDataset
 from utils.model_utils import train, test
 
