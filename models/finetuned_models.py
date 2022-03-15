@@ -18,7 +18,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 
 from pytorch_transformers import BertConfig, BertTokenizer, BertModel
-from utils.data_utils import tokenize_and_encode, get_features
+from data_utils import tokenize_and_encode, get_features
 
 # Set logging level to INFO to print number of learnable parameters
 logging.getLogger().setLevel(logging.INFO)
