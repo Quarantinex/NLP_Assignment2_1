@@ -13,8 +13,8 @@ from torch.utils.data import DataLoader
 from pytorch_transformers import AdamW  # Adam's optimization w/ fixed weight decay
 
 from baseline_models import SimpleRNN, SimpleRNNWithBERTEmbeddings
-from utils.data_utils import IMDBDataset
-from utils.model_utils import train, test
+from data_utils import IMDBDataset
+from model_utils import train, test
 
 # Disable unwanted warning messages from pytorch_transformers
 # NOTE: Run once without the line below to check if anything is wrong, here we target to eliminate
