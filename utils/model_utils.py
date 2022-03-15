@@ -5,7 +5,7 @@ weights.
 
 import logging
 import torch
-from utils.data_utils import get_features
+from data_utils import get_features
 
 
 def binary_accuracy(y_pred, y_true):
