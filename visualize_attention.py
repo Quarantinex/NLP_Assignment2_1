@@ -12,10 +12,10 @@ from tqdm import trange
 import torch
 from torch.utils.data import DataLoader
 
-from models.finetuned_models import FineTunedBert
-from utils.data_utils import IMDBDataset
-from utils.model_utils import get_normalized_attention
-from utils.visualization_utils import visualize_attention
+from finetuned_models import FineTunedBert
+from data_utils import IMDBDataset
+from model_utils import get_normalized_attention
+from visualization_utils import visualize_attention
 
 # Disable unwanted warning messages from pytorch_transformers
 # NOTE: Run once without the line below to check if anything is wrong, here we target to eliminate
